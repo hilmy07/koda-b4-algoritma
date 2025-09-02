@@ -1,0 +1,7 @@
+input N
+
+if (N % 2 == 0) {
+    OUTPUT "Genap"
+} else {
+    OUTPUT "GANJIL"
+}
