@@ -3,11 +3,10 @@
 ```mermaid
 flowchart TD;
 
-strt((start))-->a[/Tentukan r/];
-a[/Tentukan r/]-->L[L=3.14xrxr];
-L-->l[/"hasil:" L/];
-l-->K[K=2x3.14xr];
-K-->k[/"hasil:" K/];
-k-->stp(((stop)));
+strt((Start)) --> i[/Tentukan r/];
+i --> P[Hitung luas dan keliling<br>L = 3.14 × r × r<br>K = 2 × 3.14 × r];
+P --> o[/Tampilkan hasil L dan K/];
+o --> stp(((Stop)));
+
 
 ```
