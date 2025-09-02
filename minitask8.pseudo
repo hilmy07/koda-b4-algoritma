@@ -1,0 +1,11 @@
+INPUT jarak
+Hasil = 0
+
+IF jarak <= 5 THEN
+    Hasil = 8000
+ELSE
+    Tambahan = (jarak - 5) * 3000
+    Hasil = Tambahan + 8000
+ENDIF
+
+OUTPUT Hasil
