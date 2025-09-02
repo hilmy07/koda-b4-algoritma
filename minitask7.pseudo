@@ -1,14 +1,21 @@
 INPUT R
-phi = 0
+Phi = 0
 
 IF R % 7 == 0 THEN
-    phi = 22/7
+    Phi = 22/7
 ELSE
-    phi = 3.14
+    Phi = 3.14
 ENDIF
 
-Luas = phi * R * R
-Keliling = 2 * phi * R
+PROCEDURE Luas(Phi, R)
+    Luas = Phi * R * R
+    OUTPUT Luas
+ENDPROCEDURE
 
-OUTPUT Luas
-OUTPUT Keliling
+PROCEDURE Keliling(Phi, R)
+    Keliling = 2 * Phi * R
+    OUTPUT Keliling
+ENDPROCEDURE
+
+Luas(Phi, R)
+Keliling(Phi, R)
