@@ -1,6 +1,6 @@
 input N
 
-PROCEDURE isEven(number)
+PROCEDURE IsEven(number)
     IF number%2==0 THEN
         RETURN true
     ELSE 
@@ -8,7 +8,7 @@ PROCEDURE isEven(number)
     ENDIF
 ENDPROCEDURE
 
-IF isEven(N) THEN
+IF IsEven(N) THEN
     OUTPUT "GENAP"
 ELSE
     OUTPUT "GANJIL"
