@@ -1,7 +1,7 @@
 input N
 
-PROCEDURE IsEven(number)
-    IF number%2==0 THEN
+PROCEDURE IsEven(Number)
+    IF Number%2==0 THEN
         RETURN true
     ELSE 
         RETURN false
