@@ -1,7 +1,15 @@
 input N
 
-if (N % 2 == 0) {
+PROCEDURE isEven(number)
+    IF number%2==0 THEN
+        RETURN true
+    ELSE 
+        RETURN false
+    ENDIF
+ENDPROCEDURE
+
+IF isEven(N) THEN
     OUTPUT "GENAP"
-} else {
+ELSE
     OUTPUT "GANJIL"
-}
+ENDIF
