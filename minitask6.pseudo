@@ -1,7 +1,7 @@
 input N
 
 if (N % 2 == 0) {
-    OUTPUT "Genap"
+    OUTPUT "GENAP"
 } else {
     OUTPUT "GANJIL"
 }
